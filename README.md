@@ -7,7 +7,7 @@ A simulation-based gambling game where outcomes and multipliers are handled secu
 ## 📸 Screenshots
 
 ### 🎮 Game Interface
-![Game Interface](screenshots/image1)
+![Game Interface](screenshots/image1.png)
 
 
 ### 📊 Result Panel
