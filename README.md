@@ -26,14 +26,19 @@ Follow these steps to set up and run the project locally:
    ```bash
    git clone <your-repo-url>
    cd Gambling-Probability-Game
-Install TypeScript
+2. **Install TypeScript**
+   ```bash
+   npm install -g typescript
+   # or (if you prefer local installation)
+   npm install --save-dev typescript
+
 
 bash
 Copy
 Edit
-npm install -g typescript
-# or (if you prefer local installation)
-npm install --save-dev typescript
+
+
+
 Install Backend Dependencies
 
 bash
