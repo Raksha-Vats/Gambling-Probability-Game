@@ -22,55 +22,50 @@ A simulation-based gambling game where outcomes and multipliers are handled secu
 
 Follow these steps to set up and run the project locally:
 
-1. **Clone the project**
+1. **Clone the project**  
    ```bash
    git clone <your-repo-url>
    cd Gambling-Probability-Game
-2. **Install TypeScript**
+   ```
+
+2. **Install TypeScript**  
    ```bash
    npm install -g typescript
    # or (if you prefer local installation)
    npm install --save-dev typescript
+   ```
 
+3. **Install Backend Dependencies**  
+   ```bash
+   cd backend
+   npm install
+   ```
 
-bash
-Copy
-Edit
+4. **Install Frontend Dependencies**  
+   ```bash
+   cd ../frontend
+   npm install
+   ```
 
+5. **Run the Backend**  
+   ```bash
+   cd ../backend
+   npm run build
+   npm start
+   ```
 
+6. **Run the Frontend**  
+   ```bash
+   cd ../frontend
+   npm run dev
+   ```
 
-Install Backend Dependencies
+---
 
-bash
-Copy
-Edit
-cd backend
-npm install
-Install Frontend Dependencies
+## 🚀 Running the App
 
-bash
-Copy
-Edit
-cd ../frontend
-npm install
-Run the Backend
+- 🖥️ **Backend**: http://localhost:3000  
+- 🌐 **Frontend**: http://localhost:5173  
 
-bash
-Copy
-Edit
-cd ../backend
-npm run build
-npm start
-Run the Frontend
+Make sure both servers are running **simultaneously in separate terminals**.
 
-bash
-Copy
-Edit
-cd ../frontend
-npm run dev
-🚀 Running the App
-🖥️ Backend: http://localhost:3000
-
-🌐 Frontend: http://localhost:5173
-
-Make sure both servers are running simultaneously in separate terminals.
