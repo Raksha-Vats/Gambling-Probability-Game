@@ -8,8 +8,8 @@ A simulation-based gambling game where outcomes and multipliers are handled secu
 
 ### 🎮 Game Interface
 ![Game Interface](screenshots/image1.png)
-(screenshots/image2.png)
-(screenshots/image3.png)
+![](screenshots/image2.png)
+![](screenshots/image3.png)
 
 
 
